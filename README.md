@@ -1,7 +1,9 @@
 # Ezan Vakti
 
+Modern ve sade ezan vakti deneyimi.
+
 <p align="center">
-  <img src="screenshots/01_ana_ekran.png" alt="Ezan Vakti Ana Sayfa" width="420" />
+  <img src="screenshots/01_ana_ekran.png" alt="Ezan Vakti Ana Sayfa" width="320" />
 </p>
 
 <p align="center">
@@ -14,13 +16,11 @@
 
 ---
 
----
-
 ## ⚠️ Önemli Not
 
-**Bu repository portföy ve vitrin amaçlıdır.** Uygulamanın görünümü, ekran görüntüleri ve genel bilgileri bu sayfada sunulmaktadır.
+Bu repository portföy ve vitrin amaçlı hazırlanmıştır.
 
-**Tüm hakları saklıdır. © 2024 Davut Can**
+Kod yapısı, uygulama ekran görüntüleri ve proje mimarisi sergilenmektedir. Bazı özel yapılandırmalar, servis bağımlılıkları veya üretim dosyaları repository içerisinde bulunmayabilir.
 
 ---
 
@@ -30,34 +30,34 @@
   <table>
     <tr>
       <td align="center" width="25%">
-        <img src="screenshots/01_ana_ekran.png" alt="Ana Ekran" width="100%" />
+        <img src="screenshots/01_ana_ekran.png" alt="Ana Ekran" width="280" />
         <br />
         <sub><b>Ana Ekran</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/02_vakitler.png" alt="Vakitler" width="100%" />
+        <img src="screenshots/02_vakitler.png" alt="Vakitler" width="280" />
         <br />
         <sub><b>Vakitler Tablosu</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/04_ayarlar.png" alt="Ayarlar" width="100%" />
+        <img src="screenshots/04_ayarlar.png" alt="Ayarlar" width="280" />
         <br />
         <sub><b>Ayarlar</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/05_kible.png" alt="Kıble" width="100%" />
+        <img src="screenshots/05_kible.png" alt="Kıble" width="280" />
         <br />
         <sub><b>Kıble Yönü</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center" width="25%">
-        <img src="screenshots/06_bildirim.png" alt="Bildirim" width="100%" />
+        <img src="screenshots/06_bildirim.png" alt="Bildirim" width="280" />
         <br />
         <sub><b>Alarm Bildirimi</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/3.png" alt="Yükleme Ekranı" width="100%" />
+        <img src="screenshots/3.png" alt="Yükleme Ekranı" width="280" />
         <br />
         <sub><b>Başlangıç Ekranı</b></sub>
       </td>
@@ -70,7 +70,9 @@
 
 ## 🎯 Proje Hakkında
 
-**Ezan Vakti**, Diyanet İşleri Başkanlığı'nın resmi verileriyle namaz vakitlerini sunan sade ve modern bir mobil uygulama örneğidir. Uygulama, alarm hatırlatmaları, konum desteği ve kullanıcı odaklı bir arayüzle tasarlanmıştır.
+Ezan Vakti, Diyanet İşleri Başkanlığı'nın resmi verileriyle çalışan modern bir mobil namaz vakti uygulaması örneğidir.
+
+Uygulama; alarm yönetimi, konum tabanlı vakit hesaplama, kıble yönü desteği ve sade kullanıcı deneyimi odak alınarak geliştirilmiştir.
 
 ---
 
@@ -80,22 +82,24 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⏰ Vakit & Alarm
-- Tam vakti alarm desteği
-- Otomatik güncel vakit hesaplaması
-- Ayarlanabilir hatırlatma süreleri
+### ⏰ Vakit & Alarm Sistemi
+- Tam vakit alarm desteği
+- Otomatik vakit güncelleme sistemi
+- Ayarlanabilir bildirim süreleri
 - Resmi Diyanet verisi uyumu
-- Kıble yönü ve konum takibi
+- Yerel ses ve titreşim desteği
+- Offline vakit önbellekleme
 
 </td>
 <td width="50%" valign="top">
 
 ### 📱 Kullanıcı Deneyimi
-- Temiz ve anlaşılır arayüz
-- Kolay ayarlar paneli
-- Bildirim & titreşim desteği
-- Sesli ezan veya kısa uyarı seçeneği
-- Yüksek kontrast ve sade tasarım
+- Minimal ve yüksek kontrast arayüz
+- Kolay erişilebilir ayarlar paneli
+- Kıble yönü ekranı
+- Konum destekli şehir algılama
+- Sesli ezan veya kısa bildirim modu
+- Mobil odaklı sade tasarım sistemi
 
 </td>
 </tr>
@@ -103,48 +107,79 @@
 
 ---
 
+## 🏗️ Teknik Mimari
+
+- React tabanlı SPA mimarisi
+- TypeScript ile tip güvenli yapı
+- Capacitor native bridge entegrasyonu
+- Local notification scheduling sistemi
+- Geolocation API kullanımı
+- Compass sensor tabanlı kıble yönü hesaplama
+- React Hooks tabanlı state yönetimi
+- Mobil performans odaklı component yapısı
+
+---
+
 ## 🛠️ Teknoloji Stack
 
 ### Frontend
-- **React**
-- **TypeScript**
-- **Vite**
-- **Capacitor**
+- React
+- TypeScript
+- Vite
+- Capacitor
 
-### UI & Mobil Özellikler
-- **React Hooks**
-- **CSS**
-- **Bildirim yönetimi**
-- **Yerel ses ve alarm desteği**
+### Mobil Özellikler
+- React Hooks
+- CSS
+- Notification API
+- Native alarm desteği
+- Geolocation API
+- Device sensor entegrasyonu
 
 ---
 
 ## 📦 Kurulum
 
-1. Repo klonlayın:
 ```bash
 git clone https://github.com/davutcan15081/Ezan-Vakti.git
 cd Ezan-Vakti
-```
-2. Bağımlılıkları yükleyin:
-```bash
 npm install
-```
-3. Geliştirme modunda çalıştırın:
-```bash
 npm run dev
 ```
 
+> Not: Bu repository vitrin amaçlı hazırlandığından bazı özel servisler veya üretim yapılandırmaları eksik olabilir.
+
 ---
 
-## ℹ️ Notlar
+## 🎥 Demo
 
-- Bu repo daha çok sunum amaçlı vitrin olarak hazırlanmıştır.
-- Mobil platformlar için Capacitor entegrasyonu bulunmaktadır.
-- Android native çalıştırma için ek yapılandırma adımları gereklidir.
+Yakında eklenecek:
+
+- APK Demo
+- Video Tanıtım
+- GIF Önizleme
+
+---
+
+## 📁 Önerilen Repository Yapısı
+
+```text
+assets/
+docs/
+screenshots/
+src/
+LICENSE
+.gitignore
+README.md
+README_TR.md
+```
 
 ---
 
 ## 📄 Lisans
 
-MIT
+Bu proje portföy ve vitrin amaçlı paylaşılmıştır.
+
+Kodların ticari kullanımı, yeniden dağıtımı veya birebir kopyalanması proje sahibinin iznine tabidir.
+
+© 2024 Davut Can
