@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+android/
+.vscode/
+.claude/
+.env*
+*.log
+*.exe
+*.zip
+*.jks
+*.keystore
+*.apk
+.idea/
+.DS_Store
