@@ -40,9 +40,9 @@
         <sub><b>Vakitler Tablosu</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/01_ana_ekran.png" alt="Ana Ekran" width="100%" />
+        <img src="screenshots/04_ayarlar.png" alt="Ayarlar" width="100%" />
         <br />
-        <sub><b>Ana Ekran</b></sub>
+        <sub><b>Ayarlar</b></sub>
       </td>
       <td align="center" width="25%">
         <img src="screenshots/05_kible.png" alt="Kıble" width="100%" />
@@ -57,9 +57,9 @@
         <sub><b>Alarm Bildirimi</b></sub>
       </td>
       <td align="center" width="25%">
-        <img src="screenshots/3.png" alt="Yükleme Ekranı" width="100%" />
+        <img src="screenshots/01_ana_ekran.png" alt="Ana Ekran" width="100%" />
         <br />
-        <sub><b>Başlangıç Ekranı</b></sub>
+        <sub><b>Ana Ekran</b></sub>
       </td>
       <td colspan="2"></td>
     </tr>
