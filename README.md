@@ -1,16 +1,18 @@
 # Ezan Vakti
 
-<div align="center">
+<p align="center">
   <img src="screenshots/03_alarm.png" alt="Ezan Vakti" width="420" />
-  <br/><br/>
-  <p>
-    [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-    [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-    [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-    [![Capacitor](https://img.shields.io/badge/Capacitor-000000?style=for-the-badge&logo=capacitor&logoColor=white)](https://capacitorjs.com)
-    ![Status](https://img.shields.io/badge/Status-Showcase-success?style=for-the-badge)
-  </p>
-</div>
+</p>
+
+<p align="center">
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://capacitorjs.com"><img src="https://img.shields.io/badge/Capacitor-000000?style=for-the-badge&logo=capacitor&logoColor=white" alt="Capacitor" /></a>
+  <img src="https://img.shields.io/badge/Status-Showcase-success?style=for-the-badge" alt="Status" />
+</p>
+
+---
 
 ---
 
